@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calendar</title>
+</head>
+
+<body>
+
+    <nav>
+        <img src="oceonic.png" alt="">
+        <ul>
+            <li>
+                <select name="Frontdesk" id="Frontdesk">
+                    <option value="volvo">Frontdesk</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </li>
+            <li>Housekeeping</li>
+            <li>
+                <select name="Others" id="Others">
+                    <option value="volvo">Others</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </li>
+            <li>Report</li>
+        </ul>
+
+    </nav>
+    <main>
+        <div class="calendar">
+            <div class="header">
+                <button id="prevBtn">&lt;</button>
+                <h1 id="monthYear"></h1>
+                <button id="nextBtn">&gt;</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody id="calendarBody"></tbody>
+            </table>
+        </div>
+        <div class="right">
+            <div class="top-header">
+                <div class="time">
+                    <h3>July 13, 2023 - Aug 12, 2023</h3>
+                </div>
+                <div class="search">
+                    <label for="search">Search:</label>
+                    <input type="text">
+
+                </div>
+                <div class="date">
+                    <ul>
+                        <li class="line">Current</li>
+                        <li class="line">One Day</li>
+                        <li class="line">3 Days</li>
+                        <li class="line">Week</li>
+                        <li>15 Days</li>
+                        <li>
+                            <Button>Month</Button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="blocked">
+                <div class="block">Blocked</div>
+                <table style="width: 80%;">
+                    <thead>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </thead>
+                    <tbody id="calendarBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
