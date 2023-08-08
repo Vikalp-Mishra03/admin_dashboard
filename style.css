@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* --------------------nav-------------------------- */
+nav {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li select {
+    width: 85px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 800;
+    background: #d2d2d2;
+    color: gray;
+}
+
+.calendar {
+    width: 300px;
+    margin: 70px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#prevBtn,
+#nextBtn {
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+#monthYear {
+    font-size: 18px;
+
+}
+
+.today {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+}
+
+.right {
+    /* display: flex; */ 
+    margin-left: 10px;
+    margin-top: 70px;
+    width: 103rem;
+    height: 100vh;
+}
+
+.right .top-header {
+    background-color: rgb(95 143 255);
+    display: flex;
+    width: 97%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right .top-header .date ul {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 300px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.right .top-header .date ul li {
+    position: relative;
+}
+
+.right .top-header .date ul .line::after {
+    content: "";
+    background-color: rgb(126, 125, 125);
+    width: 2px;
+    height: 35px;
+    position: absolute;
+    left: 85px;
+    top: -8px;
+}
+
+ul li button {
+    width: 90px;
+    height: 35px;
+    background: aliceblue;
+    font-weight: 800;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.top-header .search input {
+    width: 130px;
+    background: gainsboro;
+    border: none;
+}
+
+.right .blocked {
+    display: flex;
+    width: 99.7%;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 104, 89);
+    color: #fff;
+    margin-top: 5px;
+}
+
+.right .blocked tr{
+    height: 45px;
+}
+
+.blocked .block{
+    padding: 20px;
+}
