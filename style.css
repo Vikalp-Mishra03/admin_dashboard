@@ -81,7 +81,7 @@ main {
 }
 
 .right {
-    /* display: flex; */ 
+    /* display: flex; */
     margin-left: 10px;
     margin-top: 70px;
     width: 103rem;
@@ -149,35 +149,52 @@ ul li button {
     margin-top: 5px;
 }
 
-.right .blocked tr{
+.right .blocked tr {
     height: 45px;
 }
 
-.blocked .block{
+.blocked .block {
     padding: 20px;
 }
 
-.use{
+.use {
     display: flex;
     align-items: center;
     background-color: rgb(181, 234, 255);
 }
-.use table{
+
+.use table {
     margin-left: 177px;
 }
 
-.right .room{
+.right .room {
     display: flex;
     align-items: center;
     background-color: rgb(172, 169, 169);
     height: 25px;
     padding: 10px;
 }
-.room table{
+
+.room table {
     width: 80%;
     margin-left: 138px;
 }
-.room td{
+
+.room td {
     width: 30px;
     height: 35px;
+}
+
+.table .first-block {
+    width: 20%;
+    text-align: left;
+    background-color: greenyellow;
+}
+
+.table .upper-block{
+    background-color: rgb(207 207 207);
+    text-align: left;
+}
+.table .light-block{
+    background-color: rgb(223, 220, 220);
 }
