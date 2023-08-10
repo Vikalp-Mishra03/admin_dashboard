@@ -148,15 +148,6 @@ ul li button {
     height: 45px;
 }
 
-.use {
-    display: flex;
-    align-items: center;
-    background-color: rgb(181, 234, 255);
-}
-
-.use table {
-    margin-left: 177px;
-}
 
 .right .room {
     display: flex;
