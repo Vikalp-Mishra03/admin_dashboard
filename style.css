@@ -139,11 +139,6 @@ ul li button {
 }
 
 .right .blocked {
-    display: flex;
-    width: 99.7%;
-    height: 45px;
-    align-items: center;
-    justify-content: space-between;
     background-color: rgb(20, 104, 89);
     color: #fff;
     margin-top: 5px;
@@ -151,10 +146,6 @@ ul li button {
 
 .right .blocked tr {
     height: 45px;
-}
-
-.blocked .block {
-    padding: 20px;
 }
 
 .use {
